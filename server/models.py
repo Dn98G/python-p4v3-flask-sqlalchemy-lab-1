@@ -18,3 +18,4 @@ class Earthquake(db.Model, SerializerMixin):
     
     def __repr__(self):
         return f"<Earthquake {self.id}, {self.magnitude}, {self.location}, {self.year}>"
+    
